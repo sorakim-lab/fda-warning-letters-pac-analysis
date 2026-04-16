@@ -6,9 +6,9 @@
 
 This repository contains the violation-level coding dataset and analysis scripts used in:
 
-> Kim, S. (2026). *Premature Accountability Convergence: Documentary Form, Computational Mediation, and the Temporal Architecture of Responsibility in Regulated Organizations.* SSRN Preprint.
+> Kim, S. (2026). *Premature Accountability Convergence: How Technology Accelerates Responsibility Stabilization in Organizations.* SSRN Preprint.
 
-The dataset consists of 160 violation observations extracted from 50 FDA Warning Letters issued to finished pharmaceutical drug product manufacturers between 2016 and 2025 (5 cases per year, purposive sampling). The analysis examines how attribution language varies across violation types while final accountability converges uniformly onto the regulated firm — establishing an empirical baseline for the PAC framework.
+The dataset consists of 160 violation observations extracted from 50 FDA Warning Letters issued to finished pharmaceutical drug product manufacturers between 2016 and 2025 (5 cases per year, purposive sampling). The analysis examines how attribution language varies across violation types while final accountability converges uniformly onto the regulated firm — establishing a pre-technological empirical baseline for the PAC framework.
 
 ---
 
@@ -45,7 +45,8 @@ The dataset consists of 160 violation observations extracted from 50 FDA Warning
 
 - **159 of 160 violations** attribute responsibility to the Firm regardless of attribution language
 - **Attribution language distribution:** state 66.2% · action 24.4% · other 9.4%
-- Documentary form compresses causally heterogeneous violation descriptions into uniform Firm-level attribution — establishing a pre-computational baseline for PAC
+- **Violation type analysis:** attribution language varies substantially across categories (manufacturing violations: 91% state-form; investigation violations: 67% action-form) — yet Firm-level attribution is invariant across all categories (100%)
+- Documentary form compresses causally heterogeneous violation descriptions into uniform Firm-level attribution — establishing a pre-technological baseline for the PAC framework
 
 ---
 
@@ -63,22 +64,12 @@ Full classification logic available in `fda_attribution_coding.py`.
 
 ## Related Work
 
-This dataset supports the empirical illustration component of the PAC framework. For the broader research program on responsibility structuring in regulated sociotechnical systems, see:
+This dataset supports the empirical grounding component of the PAC framework. For the broader research program on responsibility structuring in regulated sociotechnical systems, see:
 
-- [Anticipated Accountability Convergence (AAC)](https://ssrn.com) — SSRN Preprint
+- [Anticipated Accountability Convergence (AAC)](https://www.ssrn.com/abstract=6371980) — SSRN Preprint
 - [Cognitive Friction in Procedural Texts (CF)](https://github.com/sorakim-phd/sop-cognitive-friction-pilot) — GitHub
-- [Responsibility Convergence in Organizational Investigations (RC)](https://ssrn.com) — SSRN Preprint
+- [Responsibility Convergence in Organizational Investigations (RC)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=ORSC-MS-2026-22511) — SSRN Preprint
 
 ---
 
 ## Citation
-
-```
-Kim, S. (2026). Premature Accountability Convergence: Documentary Form, Computational
-Mediation, and the Temporal Architecture of Responsibility in Regulated Organizations.
-SSRN Preprint.
-```
-
----
-
-*This repository is intended as a transparent research prototype demonstrating empirical patterns of responsibility convergence in FDA regulatory documentation, rather than a predictive or production-level system.*
